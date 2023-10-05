@@ -9,7 +9,7 @@ from webdriver_manager.utils import ChromeType
 
 
 class ChromeDriverManager(DriverManager):
-    def __init__(self, version="113.0.5672.63",
+    def __init__(self, version="latest",
                  os_type=utils.os_type(),
                  path=None,
                  name="chromedriver",
